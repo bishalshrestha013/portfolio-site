@@ -1,6 +1,5 @@
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
@@ -10,6 +9,9 @@ import {
 import Image from "next/image";
 import dzangoLogo from "@/public/assets/dzango-logo.png";
 import Link from "next/link";
+import { FaNodeJs, FaReact, FaDocker } from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+import { Badge } from "@/components/ui/badge";
 
 const Experience = () => {
   return (
@@ -67,8 +69,19 @@ const Experience = () => {
             team.
           </li>
         </CardContent>
-        <CardFooter>
-          <p>Card Footer</p>
+        <CardFooter className="flex gap-4">
+          <Badge>
+            <FaNodeJs />
+          </Badge>
+          <Badge>
+            <FaReact />
+          </Badge>
+          <Badge>
+            <SiPostgresql />
+          </Badge>
+          <Badge>
+            <FaDocker />
+          </Badge>
         </CardFooter>
       </Card>
     </div>
