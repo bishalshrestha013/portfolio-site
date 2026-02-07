@@ -19,6 +19,8 @@ const Intro = () => {
           <Link
             className="text-blue-600 hover:text-blue-900"
             href={"https://x.com/mr_shrestha7"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             twitter
@@ -27,6 +29,8 @@ const Intro = () => {
           <Link
             className="text-blue-600 hover:text-blue-900"
             href={"https://www.linkedin.com/in/mrshrestha/"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             linkedin
