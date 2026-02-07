@@ -20,13 +20,15 @@ const Navbar = () => {
 
   return (
     <div className="flex relative md:rounded-full bg-white justify-between items-center gap-4 md:mt-4 max-w-4xl mx-auto px-2 py-4 md:shadow-aceternity ">
-      <Image
-        src={Logo}
-        alt="logo"
-        height={50}
-        width={50}
-        className="rounded-full"
-      />
+      <Link href={"/"}>
+        <Image
+          src={Logo}
+          alt="logo"
+          height={50}
+          width={50}
+          className="rounded-full"
+        />
+      </Link>
       <div className="hidden md:flex items-center gap-4 text-sm text-neutral-500 mr-10">
         {renderNavLinks()}
         <Link
