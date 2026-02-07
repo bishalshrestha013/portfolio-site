@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col items-start md:flex-row-reverse border p-4 bg-white md:rounded-4xl gap-4">
+    <div className="flex flex-col items-start md:flex-row-reverse border p-4 bg-white md:rounded-4xl gap-4 max-w-2xl">
       <Image
         src={photo}
         alt="Profile photo"
@@ -15,7 +15,7 @@ const Intro = () => {
       <div>
         <h1 className="font-bold text-3xl md:text-5xl mb-4">Bishal Shrestha</h1>
         <p className="text-zinc-600">
-          Full Stack Software Engineer building web apps. Find me on{" "}
+          Full Stack Software Engineer | Find me on{" "}
           <Link
             className="text-blue-600 hover:text-blue-900"
             href={"https://x.com/mr_shrestha7"}
@@ -36,6 +36,15 @@ const Intro = () => {
             linkedin
           </Link>
           .
+        </p>
+        <hr className="mt-4" />
+        <p className="mt-4 leading-7">
+          Full Stack Engineer with 2+ years of experience building scalable web
+          applications using React, Node.js (Fastify), and PostgreSQL. I enjoy
+          designing efficient backend systems, crafting intuitive user
+          interfaces, and exploring DevOps practices to build reliable and
+          maintainable applications. Passionate about clean code, performance,
+          and continuous learning.
         </p>
       </div>
     </div>
