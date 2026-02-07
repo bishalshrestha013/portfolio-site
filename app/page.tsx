@@ -1,6 +1,4 @@
-import Education from "./components/education";
-import Experience from "./components/experience";
-import Intro from "./components/intro";
+import { Education, Experience, Intro, Certification } from "@/app/components";
 
 export default function Home() {
   return (
@@ -8,6 +6,7 @@ export default function Home() {
       <Intro />
       <Experience />
       <Education />
+      <Certification />
     </div>
   );
 }
