@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   return (
     <div className="p-2 md:w-2xl max-w-2xl">
-      <h3 className="font-bold text-4xl">Experience</h3>
+      <h3 className="font-bold text-4xl">Work Experience</h3>
       <Card className="mt-2">
         <Link
           href="https://dzango.com/"
