@@ -1,5 +1,6 @@
 import photo from "@/public/assets/photo.jpeg";
 import Image from "next/image";
+import Link from "next/link";
 
 const Intro = () => {
   return (
@@ -14,8 +15,23 @@ const Intro = () => {
       <div>
         <h1 className="font-bold text-3xl md:text-5xl mb-4">Bishal Shrestha</h1>
         <p className="text-zinc-600">
-          Full Stack Software Engineer building web apps. Find me on twitter and
-          linkedin.
+          Full Stack Software Engineer building web apps. Find me on{" "}
+          <Link
+            className="text-blue-600 hover:text-blue-900"
+            href={"https://x.com/mr_shrestha7"}
+          >
+            {" "}
+            twitter
+          </Link>{" "}
+          and
+          <Link
+            className="text-blue-600 hover:text-blue-900"
+            href={"https://www.linkedin.com/in/mrshrestha/"}
+          >
+            {" "}
+            linkedin
+          </Link>
+          .
         </p>
       </div>
     </div>
