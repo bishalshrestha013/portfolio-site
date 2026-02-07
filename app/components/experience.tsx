@@ -15,7 +15,7 @@ import { Badge } from "@/components/ui/badge";
 
 const Experience = () => {
   return (
-    <div className="w-2xl max-w-2xl">
+    <div className="p-2 md:w-2xl max-w-2xl">
       <h3 className="font-bold text-4xl">Experience</h3>
       <Card className="mt-2">
         <Link
