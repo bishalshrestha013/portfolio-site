@@ -13,7 +13,9 @@ export default function Home() {
           className="rounded-4xl"
         />
         <div>
-          <h1 className="font-bold text-3xl md:text-5xl">Bishal Shrestha</h1>
+          <h1 className="font-bold text-3xl md:text-5xl mb-4">
+            Bishal Shrestha
+          </h1>
           <p className="text-zinc-600">
             Full Stack Software Engineer building web apps. Find me on twitter
             and linkedin.
