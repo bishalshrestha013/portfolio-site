@@ -5,7 +5,7 @@ import Logo from "../app/logo.png";
 import Image from "next/image";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import { NAV_LINKS } from "@/constant";
+import { NAV_LINKS } from "@/constants";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

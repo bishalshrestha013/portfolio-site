@@ -1,4 +1,4 @@
-import { NAV_LINKS, SOCIAL_LINKS } from "@/constant";
+import { NAV_LINKS, SOCIAL_LINKS } from "@/constants";
 import Link from "next/link";
 
 const Footer = () => {
