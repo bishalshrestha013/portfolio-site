@@ -19,7 +19,7 @@ const Education = () => {
           rel="noopener noreferrer"
         >
           <CardHeader>
-            <CardTitle>
+            <CardTitle className="flex flex-col gap-2">
               <Image
                 src={campusLogo}
                 alt="Paschimanchal campus"
@@ -28,7 +28,7 @@ const Education = () => {
               />
 
               <p>Paschimanchal Campus, IOE, TU</p>
-              <p className="font-light mt-2">B.E. Computer Engineering</p>
+              <p className="font-light">B.E. Computer Engineering</p>
             </CardTitle>
             <CardDescription>(2018-2023)</CardDescription>
           </CardHeader>
