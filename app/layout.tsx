@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bishal Shrestha - Software Engineer",
+  title: "Bishal Shrestha | Portfolio",
   description: "Bishal Shrestha Portfolio",
 };
 
