@@ -20,4 +20,4 @@ echo
 echo "${GREEN}✅ Type check complete${NC}"
 echo "${BLUE}------------------------------------${NC}"
 
-echo "${RED}🚀 Proceeding with commit.${NC}"
+echo "${GREEN}🚀 Proceeding with commit.${NC}"
