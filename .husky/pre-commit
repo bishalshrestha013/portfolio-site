@@ -1,1 +1,23 @@
+BLUE='\033[0;34m'
+YELLOW='\033[1;33m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+echo "${BLUE}====================================${NC}"
+echo "${YELLOW}🔍 Running lint ...${NC}"
+echo "${BLUE}====================================${NC}"
 pnpm run lint
+
+echo "${GREEN}✅ Linting complete${NC}"
+
+echo "${BLUE}====================================${NC}"
+echo "${YELLOW}🧑‍💻 Checking types ...${NC}"
+echo "${BLUE}====================================${NC}"
+tsc --noEmit
+
+echo
+echo "${GREEN}✅ Type check complete${NC}"
+echo "${BLUE}------------------------------------${NC}"
+
+echo "${RED}🚀 Proceeding with commit.${NC}"
