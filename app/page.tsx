@@ -1,4 +1,9 @@
-import { Education, Experience, Intro, Certification } from "@/app/components";
+import {
+  Education,
+  Experience,
+  Intro,
+  Certification,
+} from "@/app/(components)";
 
 export default function Home() {
   return (
