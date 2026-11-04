@@ -29,6 +29,8 @@ export const NAV_LINKS = [
   { name: "Contact", href: "/contact" },
 ];
 
+export const NAVBAR_SCROLL_THRESHOLD = 20;
+
 export const CONTACT_LINKS: {
   name: string;
   label: string;
