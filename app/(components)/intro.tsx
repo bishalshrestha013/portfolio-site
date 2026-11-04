@@ -15,7 +15,7 @@ const Intro = () => {
       <div>
         <h1 className="font-bold text-3xl md:text-5xl mb-4">Bishal Shrestha</h1>
         <p className="text-zinc-600">
-          Full Stack Software Engineer | Find me on{" "}
+          Senior Full-Stack & DevOps Engineer | Find me on{" "}
           <Link
             className="text-blue-600 hover:text-blue-900"
             href={"https://x.com/mr_shrestha7"}
@@ -39,12 +39,12 @@ const Intro = () => {
         </p>
         <hr className="mt-4" />
         <p className="mt-4 leading-7">
-          Full Stack Engineer with 2+ years of experience building scalable web
-          applications using React, Node.js (Fastify), and PostgreSQL. I enjoy
-          designing efficient backend systems, crafting intuitive user
-          interfaces, and exploring DevOps practices to build reliable and
-          maintainable applications. Passionate about clean code, performance,
-          and continuous learning.
+          Full-Stack & DevOps Engineer with 3 years of experience building
+          scalable SaaS applications using TypeScript, React, Node.js, and
+          PostgreSQL. I build AI-powered products with LLMs and RAG pipelines,
+          design efficient backend systems, and manage containerized
+          infrastructure and CI/CD pipelines with Docker and GitHub Actions.
+          Passionate about clean code, performance, and continuous learning.
         </p>
       </div>
     </div>

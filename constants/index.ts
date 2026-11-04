@@ -73,7 +73,7 @@ export const WORK_EXPERIENCES: {
       "Provided technical guidance to team members on database design, backend development, and production-level best practices.",
       "Utilized deployment and automation tools to streamline application deployment processes and improve deployment consistency.",
     ],
-    techIcons: [],
+    techIcons: [FaNodeJs, FaReact, SiPostgresql, FaDocker],
   },
   {
     company: "Dzango Technologies",
