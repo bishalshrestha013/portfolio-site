@@ -1,6 +1,15 @@
 import type { StaticImageData } from "next/image";
 import type { IconType } from "react-icons";
-import { FaNodeJs, FaReact, FaDocker, FaPython } from "react-icons/fa";
+import {
+  FaNodeJs,
+  FaReact,
+  FaDocker,
+  FaPython,
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import {
   SiPostgresql,
   SiTypescript,
@@ -17,7 +26,39 @@ export const NAV_LINKS = [
   // { name: "Blogs", href: "/" },
   { name: "Skills", href: "/skills" },
   { name: "Projects", href: "/" },
-  { name: "Contact", href: "/" },
+  { name: "Contact", href: "/contact" },
+];
+
+export const CONTACT_LINKS: {
+  name: string;
+  label: string;
+  href: string;
+  icon: IconType;
+}[] = [
+  {
+    name: "Email",
+    label: "mr.shrestha713@gmail.com",
+    href: "mailto:mr.shrestha713@gmail.com",
+    icon: FaEnvelope,
+  },
+  {
+    name: "LinkedIn",
+    label: "linkedin.com/in/mrshrestha",
+    href: "https://www.linkedin.com/in/mrshrestha/",
+    icon: FaLinkedin,
+  },
+  {
+    name: "GitHub",
+    label: "github.com/bishalshrestha013",
+    href: "https://github.com/bishalshrestha013",
+    icon: FaGithub,
+  },
+  {
+    name: "X (Twitter)",
+    label: "@mr_shrestha7",
+    href: "https://x.com/mr_shrestha7",
+    icon: FaXTwitter,
+  },
 ];
 
 export const SOCIAL_LINKS = [
