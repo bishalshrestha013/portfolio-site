@@ -5,7 +5,7 @@ import Logo from "../app/logo.png";
 import Image from "next/image";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS, RESUME_PATH } from "@/constants";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
           {renderNavLinks()}
           <Link
             className="hover:text-neutral-900"
-            href="/assets/resume.pdf"
+            href={RESUME_PATH}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ const Navbar = () => {
               {renderNavLinks()}
               <Link
                 className="hover:text-neutral-900"
-                href="/assets/resume.pdf"
+                href={RESUME_PATH}
                 target="_blank"
                 rel="noopener noreferrer"
               >

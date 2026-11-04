@@ -61,12 +61,7 @@ export const CONTACT_LINKS: {
   },
 ];
 
-export const SOCIAL_LINKS = [
-  { name: "Github", href: "/" },
-  { name: "Linkedin", href: "/" },
-  { name: "Twitter", href: "/" },
-  { name: "Instagram", href: "/" },
-];
+export const RESUME_PATH = "/assets/resume.pdf";
 
 export const WORK_EXPERIENCES: {
   company: string;
